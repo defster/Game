@@ -1,6 +1,6 @@
 ﻿using SlimDX.Windows;
 
-namespace SlimDX1
+namespace Game
 {
     static class Program
     {
