@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SlimDX1.Properties {
+namespace Game.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

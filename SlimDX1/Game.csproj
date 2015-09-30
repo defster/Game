@@ -7,8 +7,8 @@
     <ProjectGuid>{D340B048-2E61-4A51-A97D-57C1B0C8FE82}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SlimDX1</RootNamespace>
-    <AssemblyName>SlimDX1</AssemblyName>
+    <RootNamespace>Game</RootNamespace>
+    <AssemblyName>Game</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\CosTable.cs" />
+    <Compile Include="Core\D3DApp.cs" />
+    <Compile Include="Core\DisposableClass.cs" />
+    <Compile Include="Core\GameTimer.cs" />
+    <Compile Include="Core\Geometry.cs" />
+    <Compile Include="Core\MathF.cs" />
     <Compile Include="Core\Util.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
